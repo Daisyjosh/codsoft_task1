@@ -1,0 +1,242 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fefefe;
+  color: #222;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  color: white;
+  padding: 15px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd3c8;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.login-btn:hover {
+  background: white;
+  color: #ff416c;
+}
+
+.signup-btn {
+  background: white;
+  color: #ff416c;
+}
+
+.signup-btn:hover {
+  background: #ffd3c8;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.cta-buttons button {
+  margin: 10px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background: #ffd700;
+  color: #222;
+}
+
+.primary-btn:hover {
+  background: #ffcc00;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid #ffd700;
+  color: #fff;
+}
+
+.secondary-btn:hover {
+  background: #ffd700;
+  color: #222;
+}
+
+/* Features */
+.features {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.features-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  flex: 1;
+  min-width: 200px;
+  padding: 30px;
+  background: linear-gradient(135deg, #f953c6, #b91d73);
+  color: white;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* About */
+.about {
+  padding: 60px 0;
+  background: #f0f8ff;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-content .text {
+  flex: 1;
+}
+
+.about-content .text h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-content .text p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.about-content .image {
+  flex: 1;
+}
+
+.about-content img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Services */
+.services {
+  padding: 60px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.services-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  flex: 1;
+  min-width: 200px;
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
